@@ -33,11 +33,11 @@
             <input type="submit" value="送信" class="btn btn-primary">
         </form>
 
-        <tabel class="table">
+        <table class="table">
             <% for(var i in data) { %>
             <%- include('data_item', {val:data[i]}) %>
             <% } %>
-        </tabel>
+        </table>
     </div>
 </body>
 </html>
